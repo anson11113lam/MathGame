@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MobileGroupProject</string>
+    <string name="login_title">Welcome</string>
+    <string name="login_id">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="game_selection_title">Choose a Game</string>
+    <string name="game_matching">Matching Game</string>
+    <string name="game_glass_breaking">Glass Breaking</string>
+    <string name="game_shaking_coke">Shaking Coke</string>
+    <string name="game_move_object">Move Object</string>
+    <string name="game_unlocking">Unlocking Game</string>
+    <string name="game_find_difference">Find Difference</string>
+    <string name="game_math_formula">Math Formula</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_scoreboard">Scoreboard</string>
+</resources>

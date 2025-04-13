@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- User Indicator -->
+    <TextView
+        android:id="@+id/user_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User: guest/user"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <!-- Game Name TextView -->
+    <TextView
+        android:id="@+id/game_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math Formula Game"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/user_indicator"/>
+
+    <!-- Stage Button -->
+    <Button
+        android:id="@+id/stage_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stage"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/game_name"/>
+
+    <!-- Legend Board Button -->
+    <Button
+        android:id="@+id/legend_board_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Legend Board"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/stage_button"/>
+
+    <!-- Settings Button -->
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/legend_board_button"/>
+
+</RelativeLayout> 

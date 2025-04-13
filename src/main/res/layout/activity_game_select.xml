@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_gravity="end"/>
+
+    <!-- Game 1 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game 1:"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/game1_level1" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="1"/>
+        <Button android:id="@+id/game1_level2" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="2"/>
+        <Button android:id="@+id/game1_level3" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="3"/>
+        <Button android:id="@+id/game1_level4" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="4"/>
+    </LinearLayout>
+
+    <!-- Game 2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game 2:"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/game2_level1" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="1"/>
+        <Button android:id="@+id/game2_level2" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="2"/>
+        <Button android:id="@+id/game2_level3" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="3"/>
+        <Button android:id="@+id/game2_level4" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="4"/>
+    </LinearLayout>
+
+    <!-- Game 3 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game 3:"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/game3_level1" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="1"/>
+        <Button android:id="@+id/game3_level2" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="2"/>
+        <Button android:id="@+id/game3_level3" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="3"/>
+        <Button android:id="@+id/game3_level4" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="4"/>
+    </LinearLayout>
+
+    <!-- Game 4 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math Game:"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/math_level1" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="1"/>
+        <Button android:id="@+id/math_level2" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="2"/>
+        <Button android:id="@+id/math_level3" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="3"/>
+        <Button android:id="@+id/math_level4" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="4"/>
+    </LinearLayout>
+
+    <!-- Game 5 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game 5:"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/game5_level1" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="1"/>
+        <Button android:id="@+id/game5_level2" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="2"/>
+        <Button android:id="@+id/game5_level3" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="3"/>
+        <Button android:id="@+id/game5_level4" android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="4"/>
+    </LinearLayout>
+
+</LinearLayout> 
